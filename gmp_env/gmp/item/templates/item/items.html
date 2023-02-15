@@ -6,17 +6,17 @@
     <div class="pb-6 grid grid-cols-4 gap-4 bg-gray-100">
         <div class="col-span-1 px-2">
             <form method="get" action="{% url 'item:items' %}">
-                <input name="query" class="mt-2 w-full py-4 px-6 border rounded-xl" type="text" value="{{ query }}" placeholder="Search the item you need...">
+                <input name="query" class="mt-2 w-full py-4 px-6 border rounded-xl font-mono" type="text" value="{{ query }}" placeholder="Search the item you need...">
 
-                <button class="mt-2 py-2 px-4 text-lg bg-teal-500 text-white rounded-xl">Search</button>
+                <button class="mt-2 py-2 px-4 text-lg bg-teal-500 text-white rounded-xl font-mono">Search</button>
             </form>
 
             <hr class="my-6">
 
-            <p class="font-semibold">Categories</p>
+            <p class="font-mono">Categories</p>
             <ul>
                 {% for category in categories %}
-                    <li class="py-2 px-2 rounded-xl {% if category.id == category_id %} bg-gray-200 {% endif %}">
+                    <li class="py-2 px-2 rounded-xl font-mono {% if category.id == category_id %} bg-gray-200 {% endif %}">
                         <a href="{% url 'item:items' %}?query={{ query }}&category={{ category.id }}">{{ category.name }}</a>
                     </li>
                 {% endfor %}
@@ -26,7 +26,7 @@
 
             <ul>
                 <li>
-                    <a href="{% url 'item:items' %}" class="mt-2 py-2 px-4 inline-block bg-red-500 text-lg rounded-xl text-white">Clear Filters</a>
+                    <a href="{% url 'item:items' %}" class="mt-2 py-2 px-4 inline-block bg-red-500 text-lg rounded-xl text-white font-mono">Clear Filters</a>
                 </li>
             </ul>
 
@@ -40,8 +40,8 @@
                                 <img src="{{ item.image.url }}" class="rounded-t-xl">
                             </div>
                             <div class="p-6 bg-white rounded-b-xl">
-                                <h2 class="text-2xl">{{ item.name }}</h2>
-                                <p class="text-gray-500">Selling Price: ${{ item.price }}</p>
+                                <h2 class="text-2xl font-mono">{{ item.name }}</h2>
+                                <p class="text-gray-500 font-mono">Selling Price: ${{ item.price }}</p>
                             </div>
                         </a>
                     </div>

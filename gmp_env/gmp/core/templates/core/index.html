@@ -4,7 +4,7 @@
 
 {% block content %}
     <div class="mt-6 px-6 py-12 bg-gray-100 rounded-xl">
-        <h2 class="mb-12 text-2xl text-center">Latest Items</h2>
+        <h2 class="mb-12 text-2xl text-center font-mono">Latest Items</h2>
         <div class="grid grid-cols-3 gap-3">
             {% for item in items %}
                 <div>
@@ -13,8 +13,8 @@
                             <img src="{{ item.image.url }}" class="rounded-t-xl">
                         </div>
                         <div class="p-6 bg-white rounded-b-xl">
-                            <h2 class="text-2xl">{{ item.name }}</h2>
-                            <p class="text-gray-500">Selling Price: ${{ item.price }}</p>
+                            <h2 class="text-2xl font-mono">{{ item.name }}</h2>
+                            <p class="text-gray-500 font-mono">Selling Price: ${{ item.price }}</p>
                         </div>
                     </a>
                 </div>
@@ -23,14 +23,14 @@
     </div>
 
     <div class="mt-6 px-6 py-12 bg-gray-100 rounded-xl">
-        <h2 class="mb-12 text-2xl text-center">Categories</h2>
+        <h2 class="mb-12 text-2xl text-center font-mono">Categories</h2>
         <div class="grid grid-cols-3 gap-3">
             {% for category in categories %}
             <div>
                 <a href="#">
                     <div class="p-6 bg-white rounded-b-xl">
-                        <h2 class="text-2xl">{{ category.name }}</h2>
-                        <p class="text-gray-500">{{ category.items.count }} items</p>
+                        <h2 class="text-2xl font-mono">{{ category.name }}</h2>
+                        <p class="text-gray-500 font-mono">{{ category.items.count }} items</p>
                     </div>
                 </a>
             </div>

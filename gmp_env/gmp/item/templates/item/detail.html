@@ -10,28 +10,26 @@
 
     <div class="col-span-2 p-6 bg-gray-100 rounded-xl">
         <h1 class="mb-6 text-3xl">{{ item.name }}</h1>
-        <p class="text-gray-500"><strong>Selling Price: </strong>${{ item.price }}</p>
-        <p class="text-gray-500"><strong>Seller: </strong>{{ item.posted_by.username }}</p>
+        <p class="text-gray-500 font-mono"><strong>Selling Price: </strong>${{ item.price }}</p>
+        <p class="text-gray-500 font-mono"><strong>Seller: </strong>{{ item.posted_by.username }}</p>
         {% if item.description %}
-        <p class="text-gray-700">
-            <strong class="text-gray-500">Description: </strong><br>
+        <p class="text-gray-700 font-mono">
+            <strong class="text-gray-500 font-mono">Description: </strong><br>
             {{ item.description }}
         </p>
         {% endif %}
 
         {% if request.user == item.posted_by %}
-            <div class="mt-6 p-6 bg-white rounded-xl">
-                <a href="{% url 'item:edititem' item.id %}" class="inline-block mt-4 px-4 py-3 text-lg font-semibold bg-teal-500 text-white rounded-xl">Edit</a>
-                <a href="{% url 'item:deleteitem' item.id %}" class="inline-block mt-4 px-4 py-3 text-lg font-semibold bg-red-500 text-white rounded-xl">Delete</a>
-            </div>
+                <a href="{% url 'item:edititem' item.id %}" class="inline-block mt-4 px-4 py-2 text-lg font-mono bg-teal-500 text-white rounded-xl">Edit</a>
+                <a href="{% url 'item:deleteitem' item.id %}" class="inline-block mt-4 px-4 py-2 text-lg font-mono bg-red-500 text-white rounded-xl">Delete</a>
         {% else %}
-            <a href="{% url 'chat:newchat' item.id %}" class="inline-block mt-6 px-6 py-3 text-lg font-semibold bg-teal-500 text-white rounded-xl hover:bg-teal-700"> Contact Seller</a>
+            <a href="{% url 'chat:newchat' item.id %}" class="inline-block mt-6 px-6 py-3 text-lg font-mono bg-teal-500 text-white rounded-xl hover:bg-teal-700"> Contact Seller</a>
         {% endif %}
     </div>
 </div>
 
 <div class="mt-6 px-6 py-12 bg-gray-100 rounded-xl">
-    <h2 class="mb-12 text-2xl text-center">Items you might like</h2>
+    <h2 class="mb-12 text-2xl text-center font-mono">Items you might like...</h2>
     <div class="grid grid-cols-3 gap-3">
         {% for item in related_items %}
             <div>
@@ -40,8 +38,8 @@
                         <img src="{{ item.image.url }}" class="rounded-t-xl">
                     </div>
                     <div class="p-6 bg-white rounded-b-xl">
-                        <h2 class="text-2xl">{{ item.name }}</h2>
-                        <p class="text-gray-500">Selling Price: ${{ item.price }}</p>
+                        <h2 class="text-2xl font-mono">{{ item.name }}</h2>
+                        <p class="text-gray-500 font-mono">Selling Price: ${{ item.price }}</p>
                     </div>
                 </a>
             </div>

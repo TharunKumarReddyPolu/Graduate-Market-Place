@@ -4,12 +4,12 @@
 
 {% block content %}
 
-<h1 class="mb-6 text-3xl">{{ title }}</h1>
+<h1 class="mb-6 text-3xl font-mono">{{ title }}</h1>
 
 <form method="post" action="." enctype="multipart/form-data">
     {% csrf_token %}
 
-    <div class="space-y-4">
+    <div class="space-y-4 font-mono">
         {{ form.as_p }}
     </div>
     {% if form.errors or form.non_field_errors %}
@@ -21,6 +21,6 @@
             {{ form.non_field_errors }}
         </div>
     {% endif %}
-    <button class="mt-4 py-4 px-8 text-lg bg-teal-500 hover:bg-teal-700 rounded-xl text-white">Submit</button>
+    <button class="mt-4 py-2 px-4 text-lg bg-teal-500 hover:bg-teal-700 rounded-xl text-white font-mono">Submit</button>
 </form>
 {% endblock %}
