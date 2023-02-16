@@ -1,6 +1,6 @@
 ## Hello! Good to see you here...👋
-# Welcome to the `Graduate Market Place`
- ✏️ An online marketplace designed and developed for students which serves as a common platform to sell and buy used/new products.<br>
+# Welcome to the `Graduate Market Place` 🛒🤝🏻
+ ✏️ An online marketplace designed and developed for students which serve as a common platform to sell and buy used/new products.<br>
  ✏️ One Stop solution for e-Exchange of products within a student(Graduates, Undergraduates and Postgraduates) community.<br>
  ✏️ Here you can post the product you want to sell or look for products you wanted to buy from other fellow students.<br>
 
@@ -13,11 +13,11 @@
 
    [Fork Button](https://github.com/TharunKumarReddyPolu/Graduate-Market-Place)
    
-   > _This creates a copy of the project into repositories of your GitHub account_
+   > _This creates a copy of the project into repositories of your GitHub account_ 📀
 
 ### 2. Clone the forked repository 📥
 
-  You need to clone (download) it to your local machine using below command in terminal
+  You need to clone (download) it to your local machine using the below command in terminal
 ```bash
    $ git clone https://github.com/TharunKumarReddyPolu/Graduate-Market-Place.git
 ```
@@ -73,11 +73,11 @@ It is a better practice to keep the `local copy` in sync with the `original repo
 ```
 
 ### 5. Woohoo! You are ready for the first contribution 🌝
-Once you are done with the above steps, you are ready to contribute to the `Graduate-Market-Place` project code.Add `new features` or Check out the `issues` tab of the `original repository` and solve them. Once you are done with your changes, submit your precious efforts with a `pull request`.
+Once you are done with the above steps, you are ready to contribute to the `Graduate-Market-Place` project code. Add `new features` or Check out the `issues` tab of the `original repository` and solve them. Once you are done with your changes, submit your precious efforts with a `pull request`.
 
-### 6. Working with the project 📦📥
+### 6. Working with the project 🧑‍💻👩‍💻
 
-To get started with the project set up, run the follow commands:
+To get started with the project setup, run the following commands:
 ```bash
   # navigate to the virtual environment "gmp_env"
   cd gmp_env
@@ -97,7 +97,7 @@ To get started with the project set up, run the follow commands:
   # Here's the main fun part, running the server
   python manage.py runserver
 ```
-If you encounter below error after running the above command:
+If you encounter the below error after running the above command:
 ```
   python : The term 'python' is not recognized 
 as the name of a cmdlet, function, script       
@@ -113,23 +113,23 @@ At line:1 char:1
     + FullyQualifiedErrorId : CommandNotFoundE  
    xception
 ```
-Then change `python` to `python3` and re-run the command. This should solve the issue for you.<br>
+Then change `python` to `python3` and re-run the command. This should solve the issue for you.😁<br>
 
 If the latest version of the packages is not working on your machine, then you can downgrade the version using the below commands
 ```bash
    $ pip uninstall package_name
    $ pip install package_name==specific version
 ```
-For instance, If `Pillow` package latest version isn't working in your local machine, then do
+For instance, If `Pillow` package latest version isn't working on your local machine, then do
 ```bash
    $ pip uninstall Pillow
    $ pip install Pillow==9.3.0
 ```
 where `Pillow` refers to `package_name` and `9.3.0` refers to `previous version`/`specific version`
 
-Hurray! you have the website up and running on your localhost and ready for your development.
+Hurray!🤩 you have the website up and running on your local host and ready for your development.
 
-To deactivate the virtual environment before you logoff from development, run below command
+To deactivate the virtual environment before you logoff from development, run the below command
 ```bash
   $ deactivate
 ```
@@ -178,7 +178,7 @@ Here, `changetype_name` refers to the branch in your remote repository
 
 In the last, Navigate to your forked `Graduate-Market-Place` repository in the browser, where you will see `compare and pull requests`. Kindly click and then add a relevant `title` and `description` to your pull request that defines your valuable effort. 🥳✅️
 
-### Latest Updates
+### Latest Updates 📢
 > _Yet to be published_
 
 ## Help us improve the project better 📈🤗
@@ -192,6 +192,3 @@ _Also enable the `WATCH`👁 button to keep watching the updates on the reposito
 💯💻🧑‍💻👩‍💻 Happy Contributing 👩‍💻🧑‍💻💻💯
 
 ![Graduate Market Place-1](https://user-images.githubusercontent.com/62342666/219262630-102401eb-3082-48bc-bafd-fc045d4d6c1f.png)
-
-
-
