@@ -127,6 +127,11 @@ where `Pillow` refers to `package_name` and `9.3.0` refers to `previous version`
 
 Hurray! you have the website up and running on your localhost and ready for your development.
 
+To deactivate the virtual environment before you logoff from development, run below command
+```bash
+  $ deactivate
+```
+
 ### 7. Create a new branch 🌱
 Whenever you are going to submit a contribution. Please create a separate branch using the below command and keep your `master` branch clean (i.e. synced with the remote branch)
 #### Method 1:
