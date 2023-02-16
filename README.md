@@ -4,14 +4,16 @@
  ✏️ One Stop solution for e-Exchange of products within a student(Graduates, Undergraduates and Postgraduates) community.<br>
  ✏️ Here you can post the product you want to sell or look for products you wanted to buy from other fellow students.<br>
 
- 📌 Tech Stack used: Python, HTML, TailwindCSS, Django, SQL Database<br>
+ 📌 Tech Stack used: Python, HTML, CSS, JavaScript, TailwindCSS, Django, SQL Database<br>
 
 ### If you're an open-source developer/enthusiast, Feel free to Contribute 😁🛠 Be it code or non-code 😉
 ## Steps to follow📃
 
-### 1. Fork the project 🔪 (_This creates a copy of the project into repositories of your GitHub account_)
+### 1. Fork the project 🔪 
 
    [Fork Button](https://github.com/TharunKumarReddyPolu/Graduate-Market-Place)
+   
+   > _This creates a copy of the project into repositories of your GitHub account_
 
 ### 2. Clone the forked repository 📥
 
@@ -19,7 +21,7 @@
 ```bash
    $ git clone https://github.com/TharunKumarReddyPolu/Graduate-Market-Place.git
 ```
-> This creates a local copy of the repository in your local machine 📂
+> _This creates a local copy of the repository in your local machine_ 📂
 
   Once you have cloned the `Graduate-Market-Place` repository into your local machine, move➡️ into that folder using the change directory `cd` command on Linux/ Mac/ Windows
 ```bash
@@ -40,7 +42,7 @@ Now, let us add the reference to the original `Graduate-Market-Place` repository
 ```bash
   $ git remote add upstream https://github.com/TharunKumarReddyPolu/Graduate-Market-Place.git
 ```
-> The above command creates a new remote as `upstream`
+> _The above command creates a new remote as `upstream`_
 
 To Verify the changes run the below command
 ```bash
@@ -89,10 +91,10 @@ To get started with the project set up, run the follow commands:
   # To install the required packages for the project. run the below command
   pip install -r requirements.txt
 ```
-> If any package installation is not specified above, then those packages are built-in with python.
+> _If any package installation is not specified above, then those packages are built-in with python._
 
 ```
-  # Here's the main part, running the server
+  # Here's the main fun part, running the server
   python manage.py runserver
 ```
 If you encounter below error after running the above command:
@@ -113,7 +115,7 @@ At line:1 char:1
 ```
 Then change `python` to `python3` and re-run the command. This should solve the issue for you.<br>
 
-> If the latest version of the packages is not working on your machine, then you can downgrade the version using the below commands
+If the latest version of the packages is not working on your machine, then you can downgrade the version using the below commands
 ```bash
    $ pip uninstall package_name
    $ pip install package_name==specific version
@@ -156,8 +158,8 @@ To add your changes to the branch. Run the below command ➕️
 ```bash
   $ git add . 
 ```
-> Above command uses `period (.)` indicating all the files are added (or)
-> to stage specific file changes, use the below command instead
+> _Above command uses `period (.)` indicating all the files are added (or)
+> to stage specific file changes, use the below command instead_
 
 ```bash
   $ git add <file_name>
@@ -177,7 +179,7 @@ Here, `changetype_name` refers to the branch in your remote repository
 In the last, Navigate to your forked `Graduate-Market-Place` repository in the browser, where you will see `compare and pull requests`. Kindly click and then add a relevant `title` and `description` to your pull request that defines your valuable effort. 🥳✅️
 
 ### Latest Updates
-> Yet to be published
+> _Yet to be published_
 
 ## Help us improve the project better 📈🤗
 
@@ -188,3 +190,8 @@ _Please `STAR`⭐️ the repository if you like the content and code_**😁
 _Also enable the `WATCH`👁 button to keep watching the updates on the repository_**😉
 
 💯💻🧑‍💻👩‍💻 Happy Contributing 👩‍💻🧑‍💻💻💯
+
+![Graduate Market Place-1](https://user-images.githubusercontent.com/62342666/219262630-102401eb-3082-48bc-bafd-fc045d4d6c1f.png)
+
+
+
