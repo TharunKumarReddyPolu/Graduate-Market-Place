@@ -3,7 +3,7 @@
 {% block title %}DashBoard{% endblock %}
 
 {% block content %}
-    <div class="mt-6 px-6 py-12 bg-gray-100 rounded-xl">
+    <!--<div class="mt-6 px-6 py-12 bg-gray-100 rounded-xl">
         <h2 class="mb-12 text-2xl text-center">My Items</h2>
         <div class="grid grid-cols-3 gap-3">
             {% for item in items %}
@@ -20,5 +20,26 @@
                 </div>
             {% endfor %}
         </div>
-    </div>
+    </div>-->
+
+    <section class="text-gray-600 body-font">
+        <h2 class="mb-6 mt-12 text-2xl text-center font-mono underline">My Items</h2>
+        <div class="container px-5 py-19 mx-auto">
+          <div class="flex flex-wrap -m-4">
+            {% for item in items %}
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full border-x-2 border-y-2">
+              <a class="block relative h-48 rounded overflow-hidden" href="{% url 'item:detail' item.id %}">
+                <div>
+                    <img class="object-cover object-center w-full h-full block" src="{{ item.image.url }}">
+                </div>
+              </a>
+              <div class="mt-10 mb-15">
+                <h2 class="text-gray-900 title-font text-lg font-medium">{{ item.name }}</h2>
+                <p class="mt-1">Your Selling Price: ${{ item.price }}</p>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+    </section>
 {% endblock %}
