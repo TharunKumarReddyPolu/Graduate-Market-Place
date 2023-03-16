@@ -10,13 +10,13 @@
 ## Steps to follow📃
 ## Contents
 
-[1. Fork the project 🔪](https://github.com/TharunKumarReddyPolu/Graduate-Market-Place/edit/main/README.md#1-fork-the-project-) <br>
-[2. Clone the forked repository 📥](https://github.com/TharunKumarReddyPolu/Graduate-Market-Place/edit/main/README.md#2-clone-the-forked-repository-)<br>
-[3. Let's setup it up🔧⚙️](https://github.com/TharunKumarReddyPolu/Graduate-Market-Place/edit/main/README.md#3-lets-set-it-up-%EF%B8%8F)<br>
-[4. Keep in sync always♻️ (best practice🤝🏻) ](https://github.com/TharunKumarReddyPolu/Graduate-Market-Place/edit/main/README.md#4-keep-in-sync-always%EF%B8%8F-best-practice)<br>
-[5. Ready for the contribution 🌝](https://github.com/TharunKumarReddyPolu/Graduate-Market-Place/edit/main/README.md#5-woohoo-you-are-ready-for-the-first-contribution-)<br>
-[6. Working with the project 🧑‍💻👩‍💻](https://github.com/TharunKumarReddyPolu/Graduate-Market-Place/edit/main/README.md#6-working-with-the-project-)<br>
-[7. Create a new branch 🌱](https://github.com/TharunKumarReddyPolu/Graduate-Market-Place/edit/main/README.md#7-create-a-new-branch-)<br>
+[1. Fork the project 🔪](https://github.com/TharunKumarReddyPolu/Graduate-Market-Place#1-fork-the-project-) <br>
+[2. Clone the forked repository 📥](https://github.com/TharunKumarReddyPolu/Graduate-Market-Place#2-clone-the-forked-repository-)<br>
+[3. Let's setup it up🔧⚙️](https://github.com/TharunKumarReddyPolu/Graduate-Market-Place#3-lets-set-it-up-%EF%B8%8F)<br>
+[4. Keep in sync always♻️ (best practice🤝🏻) ](https://github.com/TharunKumarReddyPolu/Graduate-Market-Place#4-keep-in-sync-always%EF%B8%8F-best-practice)<br>
+[5. Ready for the contribution 🌝](https://github.com/TharunKumarReddyPolu/Graduate-Market-Place#5-woohoo-you-are-ready-for-the-first-contribution-)<br>
+[6. Working with the project 🧑‍💻👩‍💻](https://github.com/TharunKumarReddyPolu/Graduate-Market-Place#6-working-with-the-project-)<br>
+[7. Create a new branch 🌱](https://github.com/TharunKumarReddyPolu/Graduate-Market-Place#7-create-a-new-branch-)<br>
 
 ### 1. Fork the project 🔪 
 
