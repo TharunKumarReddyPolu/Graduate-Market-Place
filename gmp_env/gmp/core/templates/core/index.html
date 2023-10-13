@@ -3,24 +3,6 @@
 {% block title %}Hello{% endblock %}
 
 {% block content %}
-    <!--<div class="mt-6 px-6 py-12 bg-gray-100 rounded-xl">
-        <h2 class="mb-12 text-2xl text-center font-mono">Latest Items</h2>
-        <div class="grid grid-cols-3 gap-3">
-            {% for item in items %}
-                <div>
-                    <a href="{% url 'item:detail' item.id %}">
-                        <div>
-                            <img src="{{ item.image.url }}" class="rounded-t-xl">
-                        </div>
-                        <div class="p-6 bg-white rounded-b-xl">
-                            <h2 class="text-2xl font-mono">{{ item.name }}</h2>
-                            <p class="text-gray-500 font-mono">Selling Price: ${{ item.price }}</p>
-                        </div>
-                    </a>
-                </div>
-            {% endfor %}
-        </div>
-    </div>-->
 
     <section class="text-gray-600 body-font">
         <h2 class="mb-6 mt-12 text-2xl text-center font-mono underline">Latest Items</h2>
@@ -58,4 +40,5 @@
             {% endfor %}
         </div>
     </div>
+    
 {% endblock %}

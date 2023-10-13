@@ -22,7 +22,6 @@ from django.views.static import serve
 from django.conf.urls import url
 
 urlpatterns = [
-
     path('', include('core.urls')),
     path('items/', include('item.urls')),
     path('dashboard/', include('dashboard.urls')),
