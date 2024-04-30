@@ -7,6 +7,16 @@
  📌 Tech Stack used: Python, HTML, CSS, JavaScript, TailwindCSS, Django, SQL Database<br>
 
 ### If you're an open-source developer/enthusiast, Feel free to Contribute 😁🛠 Be it code or non-code 😉
+
+## How to get started with Graduate Market Place
+### User Flow:
+
+![User Flow](https://github.com/TharunKumarReddyPolu/Graduate-Market-Place/blob/main/gmp_env/Demo/User-Flow.gif)
+
+### Admin Flow:
+
+![Admin Flow](https://github.com/TharunKumarReddyPolu/Graduate-Market-Place/blob/main/gmp_env/Demo/Admin-Flow.gif)
+
 ## Steps to follow📃
 ## Contents
 
